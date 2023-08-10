@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+    color: white !important;
+  }
+
+#coming{
+    color: white;
+}
+.jumbotron{
+    height: 100vh;
+    background-color: #759FBC  !important;
+}
+.display-4{
+    margin-top: 20vh;
+}
+.blockquote{
+    margin-top: 10vh;
+}
