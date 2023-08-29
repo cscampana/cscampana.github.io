@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@900&family=Roboto:wght@300&display=swap');
+
+:root{
+    --black: black;
+    --blue-main: #7149C6;
+    --red-main:#CD3636;
+    --muted-blue:#2563eb;
+    --muted-red: #CD3636;
+}
+
+body{
+    background-color: var(--black);
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: var(--muted-blue);
+}
+
+#intro{
+    height: 40vh;
+    background-image: url("/images/top.jpg");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#top-text{
+    color: white !important;
+    margin-top: 15vh;
+    font-family: 'Phudu', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+#illuminate{
+    color: var(--red-main);
+    margin-top: 5vh;
+}
+
+#illuminate-text{
+    color: white;
+    margin-top: 5vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 7vh;
+}
+
+#break1{
+    height: 60vh;
+    background-image: url("/images/top-2.jpg");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+#explanation{
+    color:white;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-family: 'Phudu', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+#explanation-text{
+    margin: 5vh;
+    color: white;
+}
+
+#color1{
+    background-color: var(--muted-blue);
+}
+
+#color2{
+    background-color: var(--muted-red);
+}
+
+#break2{
+    height: 60vh;
+    background-image: url("/images/top-3.jpg");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
