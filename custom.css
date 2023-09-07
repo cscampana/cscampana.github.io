@@ -82,3 +82,9 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+#logo{
+    width: 3%;
+    height: 3%;
+    margin-right: 5px;
+}
