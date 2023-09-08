@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@900&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@900&family=Roboto:wght@700&display=swap');
 
 :root{
     --black: black;
@@ -76,7 +76,7 @@ body{
 }
 
 #break2{
-    height: 60vh;
+    height: 30vh;
     background-image: url("/images/top-3.jpg");
     text-align: center;
     background-size: cover;
@@ -113,3 +113,23 @@ body{
     background: var(--muted-blue); /* Some darker color when you click it */
     -webkit-border-radius: 100px;
   }
+
+  #founders-text{
+    color: white !important;
+    margin-top: 10vh;
+    font-family: 'Phudu', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+  #martin-card{
+    width: 33vw;
+    padding-top: 5vh;
+  }
+
+  #caike-card{
+    width: 33vw;
+    padding-top: 5vh;
+    background-color: var(--muted-red) !important;
+  }
+
+  
