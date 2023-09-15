@@ -132,4 +132,27 @@ body{
     background-color: var(--muted-red) !important;
   }
 
+
+  .icon-container img:nth-child(1) {
+    display: none; 
+  }
   
+  .icon-container:hover img:nth-child(2) {
+    display: none;
+  }
+  
+  .icon-container:hover img:nth-child(1) {
+    display: inline;
+  }
+
+  #linkedin{
+    filter: drop-shadow(4px 4px 4px rgba(0,0,0,0.5));
+  }
+
+  #break3{
+    height: 30vh;
+    background-image: url("/images/top-4.jpg");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+  }
