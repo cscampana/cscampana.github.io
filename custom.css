@@ -174,12 +174,13 @@ body{
     text-align: center;
   }
 
-  .footer-text{
+  #footer-text{
     color: white !important;
     margin-top: 10vh;
     font-family: 'Phudu', cursive;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    text-align: center;
   }
 
   input{
